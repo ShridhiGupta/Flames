@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+    </div>
+    
+    <div class="container">
+        <h1 class="title">FLAMES Game</h1>
+        
+        <div class="game-box animate__animated" id="gameBox">
+            <div class="input-section" id="inputSection">
+                <div class="input-group">
+                    <input type="text" id="name1" placeholder="Your Name" required>
+                    <input type="text" id="name2" placeholder="Crush's Name" required>
+                </div>
+                <button id="predictBtn" class="btn">Predict</button>
+            </div>
+            
+            <div class="result-section" id="resultSection" style="display: none;">
+                <div class="result-content" id="resultContent"></div>
+                <button id="playAgainBtn" class="btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
