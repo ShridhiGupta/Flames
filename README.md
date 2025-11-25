@@ -3,7 +3,7 @@
 ## Live Demo
 
 ```bash
-[`https://www.flames-by-shridhi.vercel.app`](https://www.flames-by-shridhi.vercel.app)
+https://www.flames-by-shridhi.vercel.app
 ```
 
 Interactive FLAMES (Friends, Love, Affection, Marriage, Enemies, Siblings) calculator built with vanilla HTML, CSS, and JavaScript. The UI includes an animated galaxy background, glassmorphism input card, real-time loading animation, and celebratory confetti when results are shown.
